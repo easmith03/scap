@@ -9,8 +9,6 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.sql.Timestamp;
-import java.time.LocalDateTime;
 import java.util.List;
 
 @AllArgsConstructor
@@ -37,7 +35,6 @@ public class StudentService {
         student.setEmail(studentDto.getEmail());
         student.setFirstName(studentDto.getFirstName());
         student.setLastName(studentDto.getLastName());
-        student.setLastModified(Timestamp.valueOf(LocalDateTime.now()));
 
         return studentRepository.save(student);
     }
