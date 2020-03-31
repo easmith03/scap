@@ -11,6 +11,7 @@ function StudentTable(props) {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState();
     const [items, setItems] = useState([]);
+    const [updateTable, setUpdateTable] = useState(false);
 
     useEffect(() => {
         StudentApi.call("http://localhost:7080/students")
@@ -25,7 +26,7 @@ function StudentTable(props) {
                     setError(error);
                 }
             )
-    }, []);
+    }, [updateTable]);
 
     function onDelete(event, id) {
         event.preventDefault();
@@ -39,13 +40,14 @@ function StudentTable(props) {
                     onClick: () => StudentApi.call("http://localhost:7080/students")
                         .delete(id)
                         .then(() => {
-                            const itemsNew = items.filter((item) => {
-                                return item.id !== id;
-                            });
-
-                            setItems(itemsNew);
                             toast.success("Student Deleted");
+                            setUpdateTable(!updateTable);
                         })
+                        .catch((err) => {
+                            toast.error("Student Deleted Error: " + err.message);
+                            setUpdateTable(!updateTable);
+                        })
+
                 },
                 {
                     label: 'No'
