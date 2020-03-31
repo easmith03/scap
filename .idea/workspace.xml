@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="548ef215-04df-491e-8d99-aefe9b807cd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585408662969</updated>
       <workItem from="1585408665671" duration="12285000" />
-      <workItem from="1585497008916" duration="33853000" />
+      <workItem from="1585497008916" duration="34656000" />
     </task>
     <task id="LOCAL-00001" summary="Initial API version">
       <created>1585498826851</created>
@@ -186,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585623784191</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="UI Refactor">
+      <created>1585624166656</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585624166656</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,10 +201,10 @@
       <screen x="1680" y="23" width="1920" height="977" />
     </state>
     <state x="2357" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585434911168" />
-    <state x="2200" y="116" key="CommitChangelistDialog2" timestamp="1585623783989">
+    <state x="2200" y="116" key="CommitChangelistDialog2" timestamp="1585624166467">
       <screen x="1680" y="23" width="1920" height="977" />
     </state>
-    <state x="2200" y="116" key="CommitChangelistDialog2/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585623783989" />
+    <state x="2200" y="116" key="CommitChangelistDialog2/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585624166467" />
     <state width="1794" height="232" key="GridCell.Tab.0.bottom" timestamp="1585606173152">
       <screen x="1680" y="23" width="1920" height="977" />
     </state>
@@ -263,10 +261,10 @@
       <screen x="1680" y="23" width="1920" height="977" />
     </state>
     <state x="2100" y="150" key="SettingsEditor/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585497081284" />
-    <state x="2191" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585623785952">
+    <state x="2191" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585624168460">
       <screen x="1680" y="23" width="1920" height="977" />
     </state>
-    <state x="2191" y="253" key="Vcs.Push.Dialog.v2/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585623785952" />
+    <state x="2191" y="253" key="Vcs.Push.Dialog.v2/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585624168460" />
     <state x="2275" y="278" width="790" height="538" key="find.popup" timestamp="1585601602566">
       <screen x="1680" y="23" width="1920" height="977" />
     </state>
