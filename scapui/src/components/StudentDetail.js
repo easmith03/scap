@@ -12,9 +12,11 @@ function StudentDetail(props) {
         email: ""
     });
 
+    const isCreate = (props.match.params && props.match.params.studentId) ? false : true;
+
     useEffect(() => {
 
-        if (!props.match.params || !props.match.params.studentId) {
+        if (isCreate) {
             setLoading(false);
             return;
         }
@@ -23,16 +25,22 @@ function StudentDetail(props) {
             .getOne(props.match.params.studentId)
             .then(
                 (result) => {
+                    if (result.error) {
+                        setError(result.messages[0]);
+                    } else {
+                        setStudent(result);
+                    }
                     setLoading(false);
-                    setStudent(result);
+
                 },
                 (error) => {
+                    console.log('error:', error);
                     setLoading(false);
-                    setError(error);
+
                 }
             );
 
-    }, []);
+    }, [isCreate, props.match.params.studentId]);
 
     function handleChange(event) {
         const studentMod = {...student, [event.target.name]: event.target.value};
@@ -42,7 +50,7 @@ function StudentDetail(props) {
     function handleSubmit(event) {
         event.preventDefault();
 
-        if (!props.match.params || !props.match.params.studentId) {
+        if (isCreate) {
             StudentApi.call("http://localhost:7080/students")
                 .create({
                     firstName: student.firstName,
@@ -76,15 +84,21 @@ function StudentDetail(props) {
         }
     }
 
-    function getPage() {
+    function getError() {
         if (error) {
-            return <div>Error: {error.messages}</div>;
-        } else if (loading) {
+            return <div>Error: {error}</div>;
+        }
+    }
+
+    function getPage() {
+        if (loading) {
             return <div>Loading...</div>;
         } else {
             return (
                 <div className="StudentDetail">
-                    <h2>Student {(props.match.params && props.match.params.studentId) ? "Update" : "Create"}</h2>
+                    <h2>Student {(isCreate) ? "Create" : "Update"}</h2>
+                    {getError()}
+
                     <form onSubmit={handleSubmit}>
                         <div>
                             <label htmlFor="firstNameId">First Name: </label><input id="firstNameId" type="text" name="firstName" value={student.firstName} onChange={handleChange}/>
@@ -95,7 +109,7 @@ function StudentDetail(props) {
                         <div>
                             <label htmlFor="emailId">Email: </label><input id="emailId" type="text" name="email" value={student.email} onChange={handleChange}/>
                         </div>
-                        <input type="submit" value={(props.match.params && props.match.params.studentId) ? "Update" : "Create"}/>
+                        <input type="submit" value={(isCreate) ? "Create" : "Update"}/>
                     </form>
                 </div>
             );

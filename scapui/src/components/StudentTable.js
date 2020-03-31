@@ -47,8 +47,6 @@ function StudentTable(props) {
     }
 
     function getPage() {
-        console.log('error', error);
-        console.log('items', items);
         if (error) {
             return <div>Error: {error.messages}</div>;
         } else if (loading) {
