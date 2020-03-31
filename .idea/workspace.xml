@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="548ef215-04df-491e-8d99-aefe9b807cd5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scapui/src/components/StudentDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/scapui/src/components/StudentDetail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scapui/src/components/StudentDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/scapui/src/components/StudentDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scapui/src/components/StudentTable.css" beforeDir="false" afterPath="$PROJECT_DIR$/scapui/src/components/StudentTable.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scapui/src/components/service/StudentApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/scapui/src/components/service/StudentApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/student/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/student/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/demo/student/controller/dto/StudentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demo/student/controller/dto/StudentDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585408662969</updated>
       <workItem from="1585408665671" duration="12285000" />
-      <workItem from="1585497008916" duration="39972000" />
+      <workItem from="1585497008916" duration="40168000" />
     </task>
     <task id="LOCAL-00001" summary="Initial API version">
       <created>1585498826851</created>
@@ -196,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585625077214</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Error handling Refactor">
+      <created>1585660011504</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585660011504</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,17 +208,22 @@
     <MESSAGE value="Initial API version" />
     <MESSAGE value="Add UI" />
     <MESSAGE value="UI Refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI Refactor" />
+    <MESSAGE value="Error handling Refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error handling Refactor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2357" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585434911168">
       <screen x="1680" y="23" width="1920" height="977" />
     </state>
     <state x="2357" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585434911168" />
-    <state x="2200" y="116" key="CommitChangelistDialog2" timestamp="1585625076992">
+    <state x="2200" y="116" key="CommitChangelistDialog2" timestamp="1585660011255">
       <screen x="1680" y="23" width="1920" height="977" />
     </state>
-    <state x="2200" y="116" key="CommitChangelistDialog2/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585625076992" />
+    <state x="2200" y="116" key="CommitChangelistDialog2/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585660011255" />
+    <state x="1919" y="90" key="DiffContextDialog" timestamp="1585660059693">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state x="1919" y="90" key="DiffContextDialog/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585660059693" />
     <state width="1794" height="232" key="GridCell.Tab.0.bottom" timestamp="1585655269246">
       <screen x="1680" y="23" width="1920" height="977" />
     </state>
@@ -273,10 +280,10 @@
       <screen x="1680" y="23" width="1920" height="977" />
     </state>
     <state x="2100" y="150" key="SettingsEditor/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585497081284" />
-    <state x="2191" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585625078851">
+    <state x="2191" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585660061354">
       <screen x="1680" y="23" width="1920" height="977" />
     </state>
-    <state x="2191" y="253" key="Vcs.Push.Dialog.v2/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585625078851" />
+    <state x="2191" y="253" key="Vcs.Push.Dialog.v2/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585660061354" />
     <state x="2275" y="278" width="790" height="538" key="find.popup" timestamp="1585653770705">
       <screen x="1680" y="23" width="1920" height="977" />
     </state>

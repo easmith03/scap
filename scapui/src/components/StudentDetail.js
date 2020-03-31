@@ -31,7 +31,7 @@ function StudentDetail(props) {
                 (error) => {
                     console.log('error:', error);
                     setLoading(false);
-
+                    setError(error.message);
                 }
             );
 
@@ -53,7 +53,6 @@ function StudentDetail(props) {
                     email: student.email
                 }).then(
                     (result) => {
-                        console.log("SAVED: ", result);
                         props.history.push("/");
                     },
                     (error) => {
