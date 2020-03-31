@@ -1,6 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import StudentApi from './service/StudentApi';
 import './StudentDetail.css';
+import {toast} from 'react-toastify';
+
+
 function StudentDetail(props) {
 
     const [loading, setLoading] = useState(true);
@@ -29,6 +32,7 @@ function StudentDetail(props) {
                     setLoading(false);
                 },
                 (error) => {
+                    toast.error(`Student: ${props.match.params.studentId} access Failed: ${error.message}`);
                     console.log('error:', error);
                     setLoading(false);
                     setError(error.message);
@@ -53,9 +57,11 @@ function StudentDetail(props) {
                     email: student.email
                 }).then(
                     (result) => {
+                        toast.success("Student Created");
                         props.history.push("/");
                     },
                     (error) => {
+                        toast.error(`Create Failed: ${error.message}`);
                         console.log("ERROR: ", error);
                         setError(error.message);
                     }
@@ -71,9 +77,11 @@ function StudentDetail(props) {
                 })
                 .then(
                     (result) => {
+                        toast.success("Student Updated");
                         props.history.push("/");
                     },
                     (error) => {
+                        toast.error(`Update Failed: ${error.message}`);
                         console.log("ERROR: ", error);
                         setError(error.message);
                     }
