@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="548ef215-04df-491e-8d99-aefe9b807cd5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="studentdb" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="studentdb" type="feb32156:DbDataSourceImpl" />
+        <item name="STUDENTDB: database" type="2aa06773:H2ImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="studentdb" type="feb32156:DbDataSourceImpl" />
+        <item name="STUDENTDB: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZlLJbq2cD24R83mV2cPY7bhHOQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="h2" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scapui/src/components" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scapui/src/components/service" />
+      <recent name="$PROJECT_DIR$/scapui/src/components" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="demo.student.controller.dto" />
+      <recent name="demo.student.event" />
+      <recent name="demo.student.config" />
+      <recent name="demo.student.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scapui/src/components" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.student.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="studentdb: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="studentdb: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@49eeee8f" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="548ef215-04df-491e-8d99-aefe9b807cd5" name="Default Changelist" comment="" />
+      <created>1585408662969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585408662969</updated>
+      <workItem from="1585408665671" duration="12285000" />
+      <workItem from="1585497008916" duration="33853000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial API version">
+      <created>1585498826851</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585498826851</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add UI">
+      <created>1585621427381</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585621427382</updated>
+    </task>
+    <task id="LOCAL-00003" summary="UI Refactor">
+      <created>1585623784191</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585623784191</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial API version" />
+    <MESSAGE value="Add UI" />
+    <MESSAGE value="UI Refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI Refactor" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2357" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585434911168">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state x="2357" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585434911168" />
+    <state x="2200" y="116" key="CommitChangelistDialog2" timestamp="1585623783989">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state x="2200" y="116" key="CommitChangelistDialog2/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585623783989" />
+    <state width="1794" height="232" key="GridCell.Tab.0.bottom" timestamp="1585606173152">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state width="1794" height="232" key="GridCell.Tab.0.bottom/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585606173152" />
+    <state width="1794" height="232" key="GridCell.Tab.0.center" timestamp="1585606173150">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state width="1794" height="232" key="GridCell.Tab.0.center/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585606173150" />
+    <state width="1794" height="232" key="GridCell.Tab.0.left" timestamp="1585606173149">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state width="1794" height="232" key="GridCell.Tab.0.left/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585606173149" />
+    <state width="1794" height="232" key="GridCell.Tab.0.right" timestamp="1585606173151">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state width="1794" height="232" key="GridCell.Tab.0.right/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585606173151" />
+    <state width="1794" height="232" key="GridCell.Tab.1.bottom" timestamp="1585606173287">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state width="1794" height="232" key="GridCell.Tab.1.bottom/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585606173287" />
+    <state width="1794" height="232" key="GridCell.Tab.1.center" timestamp="1585606173286">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state width="1794" height="232" key="GridCell.Tab.1.center/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585606173286" />
+    <state width="1794" height="232" key="GridCell.Tab.1.left" timestamp="1585606173286">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state width="1794" height="232" key="GridCell.Tab.1.left/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585606173286" />
+    <state width="1794" height="232" key="GridCell.Tab.1.right" timestamp="1585606173287">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state width="1794" height="232" key="GridCell.Tab.1.right/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585606173287" />
+    <state width="1794" height="232" key="GridCell.Tab.2.bottom" timestamp="1585606173154">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state width="1794" height="232" key="GridCell.Tab.2.bottom/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585606173154" />
+    <state width="1794" height="232" key="GridCell.Tab.2.center" timestamp="1585606173154">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state width="1794" height="232" key="GridCell.Tab.2.center/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585606173154" />
+    <state width="1794" height="232" key="GridCell.Tab.2.left" timestamp="1585606173153">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state width="1794" height="232" key="GridCell.Tab.2.left/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585606173153" />
+    <state width="1794" height="232" key="GridCell.Tab.2.right" timestamp="1585606173154">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state width="1794" height="232" key="GridCell.Tab.2.right/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585606173154" />
+    <state x="2403" y="232" key="RollbackChangesDialog" timestamp="1585598086608">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state x="2403" y="232" key="RollbackChangesDialog/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585598086608" />
+    <state x="2100" y="150" key="SettingsEditor" timestamp="1585497081284">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state x="2100" y="150" key="SettingsEditor/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585497081284" />
+    <state x="2191" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585623785952">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state x="2191" y="253" key="Vcs.Push.Dialog.v2/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585623785952" />
+    <state x="2275" y="278" width="790" height="538" key="find.popup" timestamp="1585601602566">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state x="2275" y="278" width="790" height="538" key="find.popup/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585601602566" />
+    <state x="2256" y="162" width="670" height="676" key="search.everywhere.popup" timestamp="1585497267288">
+      <screen x="1680" y="23" width="1920" height="977" />
+    </state>
+    <state x="2256" y="162" width="670" height="676" key="search.everywhere.popup/1680.23.1920.977/0.23.1680.1027@1680.23.1920.977" timestamp="1585497267288" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/scapui/src/components/App.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="entityPersister.getPropertyNames()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
