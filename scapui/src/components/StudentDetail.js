@@ -25,13 +25,8 @@ function StudentDetail(props) {
             .getOne(props.match.params.studentId)
             .then(
                 (result) => {
-                    if (result.error) {
-                        setError(result.messages[0]);
-                    } else {
-                        setStudent(result);
-                    }
+                    setStudent(result);
                     setLoading(false);
-
                 },
                 (error) => {
                     console.log('error:', error);
@@ -58,10 +53,12 @@ function StudentDetail(props) {
                     email: student.email
                 }).then(
                     (result) => {
+                        console.log("SAVED: ", result);
                         props.history.push("/");
                     },
                     (error) => {
                         console.log("ERROR: ", error);
+                        setError(error.message);
                     }
                 );
 
@@ -79,14 +76,15 @@ function StudentDetail(props) {
                     },
                     (error) => {
                         console.log("ERROR: ", error);
+                        setError(error.message);
                     }
                 );
         }
     }
 
-    function getError() {
+    function getPageError() {
         if (error) {
-            return <div>Error: {error}</div>;
+            return <div className="error">Error: {error}</div>;
         }
     }
 
@@ -97,19 +95,23 @@ function StudentDetail(props) {
             return (
                 <div className="StudentDetail">
                     <h2>Student {(isCreate) ? "Create" : "Update"}</h2>
-                    {getError()}
+                    {getPageError()}
 
                     <form onSubmit={handleSubmit}>
                         <div>
-                            <label htmlFor="firstNameId">First Name: </label><input id="firstNameId" type="text" name="firstName" value={student.firstName} onChange={handleChange}/>
+                            <label htmlFor="firstNameId" className="inputLabel">First Name: </label><input id="firstNameId" type="text" name="firstName" value={student.firstName} onChange={handleChange}/>
                         </div>
                         <div>
-                            <label htmlFor="lastNameId">Last Name: </label><input id="lastNameId" type="text" name="lastName" value={student.lastName} onChange={handleChange}/>
+                            <label htmlFor="lastNameId" className="inputLabel">Last Name: </label><input id="lastNameId" type="text" name="lastName" value={student.lastName} onChange={handleChange}/>
                         </div>
                         <div>
-                            <label htmlFor="emailId">Email: </label><input id="emailId" type="text" name="email" value={student.email} onChange={handleChange}/>
+                            <label htmlFor="emailId" className="inputLabel">Email: </label><input id="emailId" type="text" name="email" value={student.email} onChange={handleChange}/>
                         </div>
-                        <input type="submit" value={(isCreate) ? "Create" : "Update"}/>
+
+                        <div className="formButton">
+                            <input type="submit" value={(isCreate) ? "Create" : "Update"} />
+                            <input type="button" onClick={(e) => props.history.push("/")} value="Cancel" className="pushRight"/>
+                        </div>
                     </form>
                 </div>
             );

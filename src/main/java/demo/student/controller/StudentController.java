@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @AllArgsConstructor
@@ -33,12 +34,12 @@ public class StudentController {
     }
 
     @PostMapping
-    public Student createStudent(@RequestBody StudentDto studentDto) {
+    public Student createStudent(@Valid @RequestBody StudentDto studentDto) {
         return studentService.saveStudent(studentDto);
     }
 
     @PatchMapping("/{id}")
-    public Student updateStudent(@PathVariable("id") Long id, @RequestBody StudentDto studentDto) {
+    public Student updateStudent(@PathVariable("id") Long id, @Valid @RequestBody StudentDto studentDto) {
         return studentService.updateStudent(id, studentDto);
     }
 

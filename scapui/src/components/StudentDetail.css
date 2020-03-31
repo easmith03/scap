@@ -1,4 +1,24 @@
 .StudentDetail {
   text-align: left;
+  padding: 10px 0 0 30px;
 }
 
+.error {
+  padding: 10px 0 10px 0;
+  color: red;
+}
+
+.pushRight {
+  margin-left: 30px;
+}
+
+.inputLabel {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.formButton {
+  font-weight: bold;
+  margin-top: 15px;
+}
