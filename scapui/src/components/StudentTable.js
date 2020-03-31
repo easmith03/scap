@@ -4,6 +4,7 @@ import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
 import StudentApi from './service/StudentApi';
 import './StudentTable.css';
 import {Link} from 'react-router-dom';
+import {toast} from 'react-toastify';
 
 function StudentTable(props) {
 
@@ -37,7 +38,14 @@ function StudentTable(props) {
                     label: 'Yes',
                     onClick: () => StudentApi.call("http://localhost:7080/students")
                         .delete(id)
-                        .then(() => window.location.reload())
+                        .then(() => {
+                            const itemsNew = items.filter((item) => {
+                                return item.id !== id;
+                            });
+
+                            setItems(itemsNew);
+                            toast.success("Student Deleted");
+                        })
                 },
                 {
                     label: 'No'
