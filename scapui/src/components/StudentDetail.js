@@ -49,6 +49,7 @@ function StudentDetail(props) {
     function handleSubmit(event) {
         event.preventDefault();
 
+        setLoading(true);
         if (isCreate) {
             StudentApi.call("http://localhost:7080/students")
                 .create({
@@ -64,6 +65,7 @@ function StudentDetail(props) {
                         toast.error(`Create Failed: ${error.message}`);
                         console.log("ERROR: ", error);
                         setError(error.message);
+                        setLoading(false)
                     }
                 );
 
@@ -84,6 +86,7 @@ function StudentDetail(props) {
                         toast.error(`Update Failed: ${error.message}`);
                         console.log("ERROR: ", error);
                         setError(error.message);
+                        setLoading(false)
                     }
                 );
         }

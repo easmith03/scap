@@ -37,17 +37,19 @@ function StudentTable(props) {
             buttons: [
                 {
                     label: 'Yes',
-                    onClick: () => StudentApi.call("http://localhost:7080/students")
-                        .delete(id)
-                        .then(() => {
-                            toast.success("Student Deleted");
-                            setUpdateTable(!updateTable);
-                        })
-                        .catch((err) => {
-                            toast.error("Student Deleted Error: " + err.message);
-                            setUpdateTable(!updateTable);
-                        })
-
+                    onClick: () => {
+                        setLoading(true);
+                        return StudentApi.call("http://localhost:7080/students")
+                            .delete(id)
+                            .then(() => {
+                                toast.success("Student Deleted");
+                                setUpdateTable(!updateTable);
+                            })
+                            .catch((err) => {
+                                toast.error("Student Deleted Error: " + err.message);
+                                setUpdateTable(!updateTable);
+                            });
+                        }
                 },
                 {
                     label: 'No'
