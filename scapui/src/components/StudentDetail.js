@@ -24,8 +24,7 @@ function StudentDetail(props) {
             return;
         }
 
-        StudentApi.call("http://localhost:7080/students")
-            .getOne(props.match.params.studentId)
+        StudentApi.getOne(props.match.params.studentId)
             .then(
                 (result) => {
                     setStudent(result);
@@ -51,8 +50,7 @@ function StudentDetail(props) {
 
         setLoading(true);
         if (isCreate) {
-            StudentApi.call("http://localhost:7080/students")
-                .create({
+            StudentApi.create({
                     firstName: student.firstName,
                     lastName: student.lastName,
                     email: student.email
@@ -71,8 +69,7 @@ function StudentDetail(props) {
 
         } else {
 
-            StudentApi.call("http://localhost:7080/students")
-                .update(props.match.params.studentId, {
+            StudentApi.update(props.match.params.studentId, {
                     firstName: student.firstName,
                     lastName: student.lastName,
                     email: student.email

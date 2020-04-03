@@ -14,8 +14,7 @@ function StudentTable(props) {
     const [updateTable, setUpdateTable] = useState(false);
 
     useEffect(() => {
-        StudentApi.call("http://localhost:7080/students")
-            .getAll()
+        StudentApi.getAll()
             .then(
                 (result) => {
                     setLoading(false);
@@ -39,8 +38,7 @@ function StudentTable(props) {
                     label: 'Yes',
                     onClick: () => {
                         setLoading(true);
-                        return StudentApi.call("http://localhost:7080/students")
-                            .delete(id)
+                        return StudentApi.delete(id)
                             .then(() => {
                                 toast.success("Student Deleted");
                                 setUpdateTable(!updateTable);
